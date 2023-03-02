@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+ mysql_cadastro:
+  container_name: mysql_cadastro_ifood
+  image: mysql
+  environment: 
+   MYSQL_ROOT_PASSWORD: test123
+   MYSQL_DATABASE: ifoodcadastro
+  ports:
+   - "3306"
